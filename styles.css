@@ -1220,3 +1220,24 @@ form textarea {
   transform: translateY(-2px);
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .about p {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .resume-button {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+  }
+}
