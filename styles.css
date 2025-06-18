@@ -1095,8 +1095,8 @@ body::after {
 }
 
 /* Align to left */
-.resume-button-wrapper.left-align {
-    text-align: left;
+.resume-button-wrapper.right-align {
+    text-align: right;
     margin-top: 70px;
   margin-right: 500px; /* Adjust as needed */
 }
@@ -1236,7 +1236,7 @@ form textarea {
   .resume-button {
     display: block;
     margin: 1rem auto;
-    text-align: center;
+    text-align: right;
     padding: 0.75rem 2rem;
     font-size: 1rem;
   }
